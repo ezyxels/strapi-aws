@@ -94,6 +94,11 @@
       "repeatable": true,
       "component": "shared.kategorie",
       "required": true
+    },
+    "trasy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.trasy"
     }
   }
 }
