@@ -96,9 +96,10 @@
       "required": true
     },
     "trasy": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.trasy"
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::trasa.trasa",
+      "mappedBy": "zajezd"
     }
   }
 }
