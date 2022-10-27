@@ -98,8 +98,7 @@
     "trasy": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::trasa.trasa",
-      "mappedBy": "zajezd"
+      "target": "api::trasa.trasa"
     }
   }
 }
